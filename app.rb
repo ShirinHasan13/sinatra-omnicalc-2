@@ -16,6 +16,13 @@ get("/add") do
   erb(:add_form)
 end
 
+get("/add_result") do
+  @first_num= params.fetch("first_num").to_f 
+  @second_num= params.fetch("second_num").to_f 
+  @result= @first_num + @second_num
+  erb(:add_result)
+end
+
 get("/wizard_add") do
   @first_num = params.fetch("first_num").to_f
 
