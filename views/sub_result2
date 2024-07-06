@@ -2,13 +2,13 @@
 
 <dl>
   <dt>First number</dt>
-  <dd> <%= @first_num %> </dd>
+  <dd><%= @first_num %></dd>
 
   <dt>Second number</dt>
-  <dd> <%= @second_num %> </dd>
+  <dd><%= @second_num %></dd>
 
   <dt>Result</dt>
-  <dd> <%= @result %> </dd>
+  <dd><%= @result %></dd>
 </dl>
 
 <a href="/subtract">Do another subtraction</a>
