@@ -284,7 +284,7 @@ describe "/divide" do
 end
 
 describe "/divide" do
-  it "has an `<h1>` with the text 'Division'", points: 1 do
+  it "has an `<h1>` with the text 'Division', points: 1 do
     visit "/divide"
 
     heading = find("h1", :text => /Division/i)
